@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <perfslave.perfslave.PerfSlaveBuilder plugin="perfslave@1.0-SNAPSHOT">
+      <location>WebPageTest_QA1:Chrome.Edge</location>
+      <emulateMobile>true</emulateMobile>
+      <threshold></threshold>
+    </perfslave.perfslave.PerfSlaveBuilder>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>

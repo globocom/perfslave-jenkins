@@ -1,0 +1,53 @@
+Nov 01, 2016 2:11:55 PM org.eclipse.jetty.util.log.Log initialized
+INFO: Logging initialized @618ms
+Exploding /Users/diogo.munaro/.m2/repository/org/jenkins-ci/main/jenkins-war/1.625.3/jenkins-war-1.625.3-war-for-test.jar into /Users/diogo.munaro/workspace/perfslave-jenkins/perfslave/target/jenkins-for-test
+Nov 01, 2016 2:11:59 PM org.eclipse.jetty.server.handler.ContextHandler setContextPath
+WARNING: Empty contextPath
+Nov 01, 2016 2:11:59 PM org.eclipse.jetty.server.Server doStart
+INFO: jetty-9.2.12.v20150709
+Nov 01, 2016 2:11:59 PM org.eclipse.jetty.webapp.StandardDescriptorProcessor visitServlet
+INFO: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+Nov 01, 2016 2:11:59 PM org.eclipse.jetty.server.handler.ContextHandler doStart
+INFO: Started o.e.j.w.WebAppContext@4e70a728{/,file:/Users/diogo.munaro/workspace/perfslave-jenkins/perfslave/target/jenkins-for-test/,AVAILABLE}{/Users/diogo.munaro/workspace/perfslave-jenkins/perfslave/target/jenkins-for-test}
+Nov 01, 2016 2:11:59 PM org.eclipse.jetty.server.AbstractConnector doStart
+INFO: Started ServerConnector@7f006279{HTTP/1.1}{localhost:60753}
+Nov 01, 2016 2:11:59 PM org.eclipse.jetty.server.Server doStart
+INFO: Started @4608ms
+Nov 01, 2016 2:12:00 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Nov 01, 2016 2:12:20 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Nov 01, 2016 2:12:20 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Nov 01, 2016 2:12:20 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Nov 01, 2016 2:12:20 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Nov 01, 2016 2:12:24 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Nov 01, 2016 2:12:26 PM org.jenkinsci.main.modules.sshd.SSHD start
+INFO: Started SSHD at port 60769
+Nov 01, 2016 2:12:26 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Nov 01, 2016 2:12:26 PM hudson.UDPBroadcastThread run
+WARNING: UDP handling problem
+java.net.SocketException: Can't assign requested address
+	at java.net.PlainDatagramSocketImpl.join(Native Method)
+	at java.net.AbstractPlainDatagramSocketImpl.join(AbstractPlainDatagramSocketImpl.java:178)
+	at java.net.MulticastSocket.joinGroup(MulticastSocket.java:323)
+	at hudson.UDPBroadcastThread.run(UDPBroadcastThread.java:77)
+
+Nov 01, 2016 2:12:26 PM org.eclipse.jetty.server.Server doStart
+INFO: jetty-9.2.12.v20150709
+Nov 01, 2016 2:12:26 PM org.eclipse.jetty.server.handler.ContextHandler doStart
+INFO: Started o.e.j.s.ServletContextHandler@5db99216{/,null,AVAILABLE}
+Nov 01, 2016 2:12:26 PM org.eclipse.jetty.server.AbstractConnector doStart
+INFO: Started ServerConnector@18cc679e{HTTP/1.1}{0.0.0.0:60771}
+Nov 01, 2016 2:12:26 PM org.eclipse.jetty.server.Server doStart
+INFO: Started @31559ms
+Nov 01, 2016 2:12:29 PM org.eclipse.jetty.server.AbstractConnector doStop
+INFO: Stopped ServerConnector@7f006279{HTTP/1.1}{localhost:0}
+Nov 01, 2016 2:12:29 PM org.eclipse.jetty.server.handler.ContextHandler doStop
+INFO: Stopped o.e.j.w.WebAppContext@4e70a728{/,file:/Users/diogo.munaro/workspace/perfslave-jenkins/perfslave/target/jenkins-for-test/,UNAVAILABLE}{/Users/diogo.munaro/workspace/perfslave-jenkins/perfslave/target/jenkins-for-test}
+WARN: The method class org.apache.commons.logging.impl.SLF4JLogFactory#release() was invoked.
+WARN: Please see http://www.slf4j.org/codes.html#release for an explanation.

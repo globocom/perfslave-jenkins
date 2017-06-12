@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<perfslave.perfslave.PerfSlaveBuilder_-DescriptorImpl plugin="perfslave@1.0-SNAPSHOT">
+  <wptHost>http://webpagetest.qa01.globoi.com</wptHost>
+</perfslave.perfslave.PerfSlaveBuilder_-DescriptorImpl>

@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Group-Id: perfslave
+Short-Name: perfslave
+Long-Name: PerfSlave Plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/TODO+Plugin
+Plugin-Version: 1.0-SNAPSHOT (private-11/01/2016 14:12-diogo.munaro)
+Hudson-Version: 1.625.3
+Jenkins-Version: 1.625.3
+Plugin-Developers: 
+Libraries: /Users/diogo.munaro/workspace/perfslave-jenkins/perfslave/s
+ rc/main/resources,/Users/diogo.munaro/workspace/perfslave-jenkins/per
+ fslave/target/classes
+Resource-Path: /Users/diogo.munaro/workspace/perfslave-jenkins/perfsla
+ ve/src/main/webapp
+

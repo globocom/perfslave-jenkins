@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Built-By: diogo.munaro
+Created-By: Apache Maven
+Build-Jdk: 1.8.0_102
+Extension-Name: perfslave
+Specification-Title: Make client performance tests using PerfSlave.
+Implementation-Title: perfslave
+Implementation-Version: 1.0-SNAPSHOT
+Group-Id: perfslave
+Short-Name: perfslave
+Long-Name: PerfSlave Plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/TODO+Plugin
+Plugin-Version: 1.0-SNAPSHOT (private-11/01/2016 14:12-diogo.munaro)
+Hudson-Version: 1.625.3
+Jenkins-Version: 1.625.3
+Plugin-Developers: 
+

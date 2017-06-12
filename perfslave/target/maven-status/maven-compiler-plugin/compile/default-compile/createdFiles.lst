@@ -1,0 +1,5 @@
+perfslave/perfslave/PerfSlaveBuilder.class
+perfslave/perfslave/PerfSlaveBuilder/DescriptorImpl/doCheckName.stapler
+perfslave/perfslave/PerfSlaveBuilder.stapler
+perfslave/perfslave/PerfSlaveBuilder$DescriptorImpl.class
+META-INF/annotations/hudson.Extension
